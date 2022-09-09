@@ -2,13 +2,19 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Epilogue;
+  src: url(https://fonts.google.com/specimen/Epilogue);
+}
+
 body,
 html {
   padding: 0;
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  font-family: https://fonts.google.com/specimen/Epilogue;
+  font-family:Epilogue;
+  
 }
 
 .container {
